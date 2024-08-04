@@ -1,0 +1,65 @@
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+}
+
+th, td {
+    text-align: center;
+}
+.banner {
+    background-color: #e0fae8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.banner img {
+    border-radius:50%;
+    margin-right: 20px;
+}
+
+.banner h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.banner nav {
+    margin-top: 10px;
+}
+
+.banner nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #007bff;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.social-icons a img {
+    width: 40px;
+    height: 40px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+
+.flex-container img {
+    margin-right: 10px;
+}
